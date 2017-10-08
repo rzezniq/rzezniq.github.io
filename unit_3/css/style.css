@@ -1,6 +1,10 @@
 body {
      background-color: #8BA7AD;
 }
+*	{
+	padding: 0;
+	margin: 0;		
+}
 .para {
 	text-align: center;
 	color: #0000ff;
