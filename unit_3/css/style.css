@@ -1,25 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Roboto:300");
 body {
      background-color: #8BA7AD;
-}
-*	{
-	padding: 0;
-	margin: 0;		
-}
+ }
+	
+
 .para {
+	font-size: 1.25em;
 	text-align: center;
-	color: #0000ff;
-	font-family: "Lucida Console";
+	font-family: Orbitron;
 }
-.title {font-size: 60px;
+.title {font-size: 2.5em;
 	font-weight: bolder;
 	text-align: center;
-	font-family: "Lucida Console";
+	font-family: Roboto;
 }
 .sup {font-size: 30px;
 	font-weight: bolder;
 	text-align: center;
-	font-family: "Lucida Console";
-	font-style: italic; 
+	font-family: Orbitron; 
 }
 .list {
 	text-align: left;
