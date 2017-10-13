@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Orbitron|Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Roboto|Encode+Sans+Expanded");
 body {
      background-color: #8BA7AD;
  }
@@ -11,14 +11,14 @@ h3 {
 .para {
 	font-size: 1.5em;
 	text-align: center;
-	font-family: Orbitron;
+	font-family: "Encode Sans Expanded";
 	line-height: 1.5em;
 	padding: 20px 50px 20px 50px;
 }
-.title {font-size: 3.5em;
+.title {font-size: 2.5em;
 	font-weight: bolder;
 	text-align: center;
-	font-family: Roboto;
+	font-family: "Encode Sans Expanded";
 }
 .sup {font-size: 2em;
 	font-weight: bolder;
