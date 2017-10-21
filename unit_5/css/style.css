@@ -3,10 +3,6 @@ body {
      background-color: #FEFEFE;
      font-size: 20px;
  }
- header {background-color: #FFED74;
-    	border: 1px black solid;
-    	padding: 20px;
-}
 h3 {
 	font-size: 1.75em;
 	text-align: center;
@@ -24,14 +20,18 @@ nav {width:40em;
 	padding: 1em, 1em;
 	letter-spacing: 3px;
 	background-color: #E8C66A;
-	border: 1px black solid;
-}
+    border: 1px black solid;
 
 }
-.para {text-align: left;
+header {background-color: #FFED74;
+ border: 1px black solid;
+}
+.para {
+	text-align: left;
 	font-family: "Encode Sans Expanded";
 	line-height: 1.5em;
-	padding: 20px 50px 20px 50px;
+	padding: 2em;
+	color: #120010;
 	background-color: #FFE2B8;
 	border: 1px black solid;
 }
