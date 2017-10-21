@@ -26,6 +26,15 @@ nav {width:40em;
 header {background-color: #FFED74;
  border: 1px black solid;
 }
+footer {background-color: #FF957E;
+		border: 1px black solid;
+		text-align: left;
+		font-family: "Encode Sans Expanded";
+		font-size: 0.5em;
+		line-height: 1.5em;
+		padding: 2em;
+
+}
 .para {
 	text-align: left;
 	font-family: "Encode Sans Expanded";
@@ -46,5 +55,9 @@ header {background-color: #FFED74;
 	font-family: Orbitron; 
 }
 .one {
-	width: 28%;
+	width: 28%
+
 }
+.pitok {width: 33%;
+		float: left;
+		padding: 0em 2em;}
