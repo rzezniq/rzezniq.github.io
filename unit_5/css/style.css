@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Encode+Sans+Expanded");
+body {
+     background-color: #FEFEFE;
+     font-size: 20px;
+ }
+ header {background-color: #FFED74;
+    	border: 1px black solid;
+    	padding: 20px;
+}
+h3 {
+	font-size: 1.75em;
+	text-align: center;
+	font-family: Orbitron;
+}
+
+a {
+	color: rgb(120,10,0);
+	text-decoration: none;
+}
+nav {width:40em;
+	margin:0em auto;
+	font-family: Orbitron;
+	font-size: 1.1em;
+	padding: 1em, 1em;
+	letter-spacing: 3px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+}
+
+}
+.para {text-align: left;
+	font-family: "Encode Sans Expanded";
+	line-height: 1.5em;
+	padding: 20px 50px 20px 50px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+.title {font-size: 2.3em;
+	font-weight: 200;
+	text-align: center;
+	font-family: "Encode Sans Expanded";
+}
+.sup {font-size: 1.25em;
+	font-weight: 100;
+	text-align: center;
+	font-family: Orbitron; 
+}
+.one {
+	width: 28%;
+}
