@@ -55,9 +55,18 @@ footer {background-color: #FF957E;
 	font-family: Orbitron; 
 }
 .one {
-	width: 28%
+	width: 28%;
 
 }
 .pitok {width: 33%;
 		float: left;
-		padding: 0em 2em;}
+		padding: 1em 2em;}
+.test { width: 100%;
+		margin: 0 auto;
+
+}
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+	background-color: #fff;
+}
