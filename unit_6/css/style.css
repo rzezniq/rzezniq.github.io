@@ -13,6 +13,9 @@ a {
 	color: rgb(120,10,0);
 	text-decoration: none;
 }
+a:hover {color: pink;
+}
+
 nav {width:40em;
 	margin:0em auto;
 	font-family: Orbitron;
@@ -39,12 +42,11 @@ footer {background-color: #FF957E;
 	text-align: left;
 	font-family: "Encode Sans Expanded";
 	line-height: 1.5em;
-	padding: 1em 0em;
+	padding: 1em;
 	color: #120010;
-	width: 33%;
-	float: left;
+	background-color: #FFE2B8;
 	border: 1px black solid;
-	}
+}
 .title {font-size: 2.3em;
 	font-weight: 200;
 	text-align: center;
