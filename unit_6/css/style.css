@@ -21,10 +21,10 @@ a {
 a:hover {color: pink;
 }
 
-nav {width:40em;
-	margin:0em auto;
+nav {width:100%;
+	margin:1em auto;
 	font-family: Rajdhani;
-	font-size: 1.4em;
+	font-size: 1.7em;
 	padding: 1em, 1em;
 	letter-spacing: 3px;
 /*	background-color: #E8C66A;
@@ -65,18 +65,24 @@ footer {background-color: #FF957E;
 	font-family: Rajdhani; 
 }
 .one {
-	width: 32%;
-	padding: 0.25em;
+	width: 33.33%;
+	padding: 0.1%;
+	display: block;
+	float: left;
+
+}
+.long {
+	width: 100%;
+	padding: 0%;
 
 }
 .pitok {width: 33%;
 		float: left;
 		padding: 1em 2em;}
-.test { text-align: center;
-		width: 100%;
-		margin: 0 auto;
+.test {float: left;}
 
-}
+
+
 .clearfix:after {
     visibility: hidden;
     display: block;
