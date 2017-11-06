@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rajdhani|Encode+Sans+Expanded");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Encode+Sans+Expanded|Lato");
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   /*   background-color: #FEFEFE;*/
@@ -46,7 +46,7 @@ footer {/*background-color: #FF957E;*/
 }
 .para {
 	text-align: left;
-	font-family: "Encode Sans Expanded";
+	font-family: "Lato";
 	line-height: 1.5em;
 	padding: 0.25% 0.5%;
 	color: #120010;
@@ -105,6 +105,23 @@ footer {/*background-color: #FF957E;*/
 }
 .clear  {
 	clear: both; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Rajdhani;
+    font-size: 9em;
+    font-weight: 600;
+
 }
 #wrapper {
 	width: 1080px;
