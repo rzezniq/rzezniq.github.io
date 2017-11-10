@@ -135,6 +135,9 @@ footer {/*background-color: #FF957E;*/
 }
 
 @media only screen and (max-width: 1366px) {
+	h3 {font-size: 2em;
+		padding: 0.75em 0em;
+	}
 	.one {
 	width: 50%;
 	padding: 0.1%;
@@ -170,3 +173,9 @@ footer {/*background-color: #FF957E;*/
 	}
 
 }
+
+@media only screen and (max-width: 500px) {
+	.pitok {
+		float: none;
+		display: block;
+	}
