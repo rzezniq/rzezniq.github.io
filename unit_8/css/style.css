@@ -4,6 +4,9 @@ body {
   /*   background-color: #FEFEFE;*/
      font-size: 18px;
  }
+h2 {font-size: 2.1em;
+
+}
 h3 {
 	font-size: 2.75em;
 	text-align: center;
@@ -138,7 +141,7 @@ footer {/*background-color: #FF957E;*/
 }
 	.para2 {padding: 4% 2%;
 		float: none;
-		width: 50%;
+		width: 80%;
 		display: block;
 		margin: 0 auto;
 }
