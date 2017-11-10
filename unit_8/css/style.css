@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Lato");
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  /*   background-color: #FEFEFE;*/
+     font-size: 18px;
+ }
+h3 {
+	font-size: 2.75em;
+	text-align: center;
+	font-family: Rajdhani;
+	padding: 1em 0em;
+}
+p {padding: 1em 0em;
+
+}
+
+a {
+	color: rgb(100,10,5);
+	text-decoration: none;
+}
+a:hover {color: pink;
+}
+
+nav {width:100%;
+	margin: 1% auto;
+	font-family: Rajdhani;
+	font-size: 2em;
+	padding: 1em 1em 0em 1em;
+	letter-spacing: 3px;
+	font-weight: 300;
+/*	background-color: #E8C66A;
+    border: 1px black solid;*/
+     text-align: center;
+}
+
+header {/*background-color: #FFED74;
+ border: 1px black solid;*/
+}
+footer {/*background-color: #FF957E;*/
+		border: 1px black solid;
+		text-align: left;
+		font-family: Lato;
+		font-size: 0.5em;
+		line-height: 1.5em;
+		padding: 2em;
+
+}
+.para {
+	text-align: justify;
+	font-family: Lato;
+	line-height: 1.5em;
+	padding: 0.25% 0.5%;
+	color: #120010;
+	/*background-color: #FFE2B8;*/
+/*	border: 1px black solid;*/
+}
+
+.para2 {padding: 4% 2%;
+		float: left;
+		width: 33.3%;
+}
+
+.title {font-size: 2.1em;
+	font-weight: 100;
+	text-align: center;
+	font-family: Rajdhani;
+	padding: 0.5em 0em;
+}
+.sup {font-size: 1.25em;
+	font-weight: 100;
+	text-align: center;
+	font-family: Rajdhani; 
+}
+.one {
+	width: 33.33%;
+	padding: 0.1%;
+	display: block;
+	float: left;
+}
+
+.two {
+	width: 33.33%;
+	padding: 0.1%;
+	display: block;
+	float: right;
+	}
+.long {
+	width: 100%;
+	padding: 0.25% 0.5%;
+	max-width: 1920px;
+
+}
+.pitok {width: 33%;
+		float: left;
+		padding: 1em 2em;}
+.test {float: left;}
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clear  {
+	clear: both; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Rajdhani;
+    font-size: 8vw;
+    font-weight: 600;
+}
+
+#block {
+	display: block;
+}
+
+@media only screen and (max-width: 1366px) {
+	.one {
+	width: 100%;
+	padding: 0.1%;
+	display: block;
+	float: none;
+}
+	.para2 {padding: 4% 2%;
+		float: none;
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+}
+}
