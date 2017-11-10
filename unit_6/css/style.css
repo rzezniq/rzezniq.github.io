@@ -151,3 +151,6 @@ footer {/*background-color: #FF957E;*/
     float: right;   
     width: 61%;
 }
+#block {
+	display: block;
+}
