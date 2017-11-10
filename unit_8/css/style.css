@@ -134,14 +134,14 @@ footer {/*background-color: #FF957E;*/
 
 @media only screen and (max-width: 1366px) {
 	.one {
-	width: 100%;
+	width: 50%;
 	padding: 0.1%;
-	display: block;
-	float: none;
+	/*display: block;*/
+	/*float: none;*/
 }
 	.para2 {padding: 4% 2%;
-		float: none;
-		width: 80%;
+		/*float: none;*/
+		width: 50%;
 		display: block;
 		margin: 0 auto;
 }
