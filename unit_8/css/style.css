@@ -37,7 +37,7 @@ header {/*background-color: #FFED74;
  border: 1px black solid;*/
 }
 footer {/*background-color: #FF957E;*/
-		border: 1px black solid;
+		/*border: 1px black solid;*/
 		text-align: left;
 		font-family: Lato;
 		font-size: 0.5em;
@@ -190,11 +190,19 @@ footer {/*background-color: #FF957E;*/
 	}
 	h3 {font-size: 1.2em
 	}
+	.pitok {
+		float: none;
+		display: block;
+		margin: 0% auto;
+	}
+
 	.title {font-size: 1.3em;
+			font-weight: 600;
 
 	}
 
 	.sup {font-size: 1.2em;
+			font-weight: 500;
 
 
 	}
@@ -206,12 +214,14 @@ footer {/*background-color: #FF957E;*/
 		display: block;
 	}
 
+}
+
 
 
 @media only screen and (max-width: 500px) {
 	.pitok {
 		float: none;
 		display: block;
-		margin: 0%;
+		margin: 0% auto;
 	}
 }
