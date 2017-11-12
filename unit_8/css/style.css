@@ -133,6 +133,9 @@ footer {/*background-color: #FF957E;*/
 #block {
 	display: block;
 }
+#burger {
+	display:none;
+}
 
 @media only screen and (max-width: 1366px) {
 	h3 {font-size: 2em;
@@ -182,6 +185,7 @@ footer {/*background-color: #FF957E;*/
 @media only screen and (max-width: 658px) {
 	nav a{display: block;
 		background-color: #D9CFD3;
+		display: none;
 
 	}
 	h3 {font-size: 1.2em
@@ -193,6 +197,13 @@ footer {/*background-color: #FF957E;*/
 	.sup {font-size: 1.2em;
 
 
+	}
+	#burger {display: block;
+
+	}
+
+	nav:hover a {
+		display: block;
 	}
 
 
