@@ -18,7 +18,7 @@ a {
 	color: rgb(100,10,5);
 	text-decoration: none;
 }
-a:hover {color: pink;
+a:hover {color: red;
 }
 
 nav {width:100%;
@@ -181,6 +181,7 @@ footer {/*background-color: #FF957E;*/
 }
 @media only screen and (max-width: 658px) {
 	nav a{display: block;
+		background-color: #D9CFD3;
 
 	}
 
@@ -188,5 +189,6 @@ footer {/*background-color: #FF957E;*/
 	.pitok {
 		float: none;
 		display: block;
+		margin: 0%;
 	}
 }
