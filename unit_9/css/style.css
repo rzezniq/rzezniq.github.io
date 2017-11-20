@@ -139,6 +139,46 @@ footer {/*background-color: #FF957E;*/
 	display:none;
 }
 
+@media only screen and (min-width: 2000px) {
+	
+	.container {
+    font-size: 7vw;
+}
+
+}
+
+
+@media only screen and (min-width: 2200px) {
+	
+	.container {
+    font-size: 6vw;
+}
+
+}
+
+@media only screen and (min-width: 2700px) {
+	
+	.container {
+    font-size: 5.2vw;
+}
+
+}
+
+@media only screen and (min-width: 3050px) {
+	
+	.container {
+    font-size: 4.5vw;
+}
+
+}
+
+@media only screen and (min-width: 3550px) {
+	
+	.container {
+    font-size: 4vw;
+}
+
+}
 @media only screen and (max-width: 1366px) {
 	h3 {font-size: 2em;
 		padding: 0.75em 0em;
